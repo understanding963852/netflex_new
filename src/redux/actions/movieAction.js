@@ -4,7 +4,8 @@ import api from "../api";
 // api_key는 주민등록번호와 같다. 악용될수 있다
 
 //.env파일에 있는 API_KEY 불러오기
-const API_KEY = process.env.REACT_APP_API_KEY;
+//const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = `7503fec09692f78b681000cec1a9bba2`;
 // console.log(API_KEY);
 
 function getMovies() {
