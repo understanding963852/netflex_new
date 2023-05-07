@@ -5,6 +5,7 @@ import api from "../api";
 
 //.env파일에 있는 API_KEY 불러오기
 // const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = REACT_APP_API_KEY;
 // console.log(API_KEY);
 
 function getMovies() {
